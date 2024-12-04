@@ -3,6 +3,7 @@ import java.util.LinkedList;
 class HashTableSeparateChaining {
     private final LinkedList<String>[] table;
     private final int M;
+    private int comparisons;
 
     @SuppressWarnings("unchecked")
     public HashTableSeparateChaining(int size) {
@@ -11,6 +12,7 @@ class HashTableSeparateChaining {
         for (int i = 0; i < M; i++) {
             table[i] = new LinkedList<>();
         }
+        comparisons = 0;
     }
 
     public int hashCode1(String key) {
@@ -36,7 +38,18 @@ class HashTableSeparateChaining {
     }
 
     public boolean contains(String key, boolean useHashCode1) {
+        comparisons = 0;
         int hash = useHashCode1 ? hashCode1(key) : hashCode2(key);
-        return table[hash].contains(key);
+        for (String s : table[hash]) {
+            comparisons++;
+            if (s.equals(key)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int getComparisons() {
+        return comparisons;
     }
 }
