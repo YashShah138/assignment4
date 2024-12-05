@@ -5,6 +5,11 @@
 * **@duedate: December 6, 2024**
 
 ------
+Table of Contents
+* (Objective)[#Objective]
+* (Tasks)[#Tasks]
+* (Output)[#output]
+------
 
 ## Objective
 Write a program that reads in a string from the command line and a dictionary of words (given below) and checks whether it is a "strong" password. 
