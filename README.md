@@ -5,10 +5,10 @@
 * **@duedate: December 6, 2024**
 
 ------
-Table of Contents
-* (Objective)[#Objective]
-* (Tasks)[#Tasks]
-* (Output)[#output]
+### Table of Contents
+- **[Objective](#objective)**
+- **[Tasks](#tasks)**
+- **[Output](#output)**
 ------
 
 ## Objective
