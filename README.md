@@ -52,36 +52,42 @@ Insert the words into hash table using linear probing and report the results for
 ## Output
 
 **account8:**
-
+```bash
 Password is not strong: It is a common dictionary word followed by a digit.
+```
 
 
 **accountablity**
-
+```bash
 Password is not strong: It is a common dictionary word.
+```
 
 
 **9a$D#qW7!uX&Lv3zT**
-
+```bash
 Password is strong.
 Separate Chaining HashTable (hashCode1) comparisons: 12
 Separate Chaining HashTable (hashCode2) comparisons: 10
 Linear Probing HashTable (hashCode1) comparisons: 1
 Linear Probing HashTable (hashCode2) comparisons: 8
+```
 
 
 **B@k45*W!c$Y7#zR9P**
+```bash
 Password is strong.
 Separate Chaining HashTable (hashCode1) comparisons: 8
 Separate Chaining HashTable (hashCode2) comparisons: 11
 Linear Probing HashTable (hashCode1) comparisons: 0
 Linear Probing HashTable (hashCode2) comparisons: 0
+```
 
 
 **X$8vQ!mW#3Dz&Yr4K5**
-
+```bash
 Password is strong.
 Separate Chaining HashTable (hashCode1) comparisons: 16
 Separate Chaining HashTable (hashCode2) comparisons: 7
 Linear Probing HashTable (hashCode1) comparisons: 0
 Linear Probing HashTable (hashCode2) comparisons: 0
+```
